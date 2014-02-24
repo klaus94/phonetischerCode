@@ -92,7 +92,9 @@ def main():
 			print "with the help of this code you can convert numbers into words. so you will keep them better in mind."
 			print "the system goes like this: every number from 0 to 9 stands for a group of consonants, thats sound quite similar (behold the list). To get a comlete word we fill in some vowels between the consonants."
 			print ""
-			print "e.g. the number '02' could be the word: 'sun', because 0 is 's' and 2 is 'n'." 
+			print "e.g. the number '02' could be the word: 'sun', because 0 is 's' and 2 is 'n'."
+			print ""
+			print "If you coose the option: Translate a number into a word, the program will search for matching words. If there is no fitting word for the whole number, it splits the number up into peaces. So it is your turn to look for a good and memorable combination of words!"
 		elif (choice == "l"):
 			print "List, that says, which number belongs to which consonant and a memory hook to each:"
 			print "0.. 'ZZZero' ........................ s,z" 
